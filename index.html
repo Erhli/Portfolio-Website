@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jay's Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.css">
+  </head>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/images/jay-logo.png" class="logo" alt="" />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#myWorks">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p></p>
+          <h1>
+            
+          </h1>
+        </div>
+      </div>
+    </div>
+   <!--about-->
+<div class="my-about">
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/images/jay-user.jpg" alt="" />
+            <br>
+           <div class="movebtn">
+           <a href="#">Back</a>
+          <a href="#services">Next </a>
+           </div>
+            
+            
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>A warm and caring individual who is concerned about the positive influence my skills
+can make in the life of other people and a community at large. Am very stimulating,
+encouraging, and adaptive to the varied needs of others. I am dedicative, resourceful and
+have a goal- driven personality. Am very intentional about helping develop any social surroundings and any
+team I will be interacting with at any point in time.</p>
+
+            <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+             <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+            <ul>
+            <li><span>My Specialties</span></li><br>Web Design and Development</ul>
+            <li><span>Web Applications</span></li><br>Graphic Design</ul>
+            <li><span>Business Cards/Flyers/Posters</span>
+            </li>
+            <br>Hardware/ Software Installation</ul>
+            <li><span>Trouble-Shooting/Installations/ Hardware fixes</span>
+            </div>
+            <div class="tab-contents" id="experience">
+            <ul>
+            <li><span>My Experience</span></li><br>I have Experience in; </ul>
+            <li><span>ICT Tutoring</span></li>
+            <li><span>Web Design and Developing</span></li>
+            <li><span>Flyer/Business/Poster Design</span></li>
+            <li><span>Live video streaming </span></li>
+            <li><span>Competent with EasyWorhsip Software</span></li>
+            <li><span>Microsoft Office Tools</span></li>
+          </ul>
+            <li><span>Proficient at Camera handling</span></li>
+           </ul>
+            </div>
+            <div class="tab-contents" id="education">
+            <ul>
+            <li><span>Alma mater</span></li><br>University</ul>
+            <li><span>Ho Technical University, Ghana</span>
+            <li><span>DataLink Institute, Ghana</span>
+            </li><br>Senior/ Jumior Schools</ul>
+            <li><span>Mawuli Senior High</span>
+            <li><span>Global Academy School</span>
+            </li><br> Other Training Institutes</ul>
+            <li><span>Philippine Baptist Theological Seminary</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--services-->
+    <div id="services">
+    <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+    <div>
+    <h2>Web Design</h2>
+    <p>User-focused web design that makes an impact, crafting websites that solve problems and drive results</p>
+    <a href="#myWorks">learn more</a>
+    </div>
+    <div>
+    <h2 id="web">Tech Support</h2>
+    <p>Solving tech challenges, one solution at a time, where I've turned tech problems into solutions.</p>
+    <a href="#myWorks">learn more</a>
+    </div>
+    <div>
+    <h2>Graphic Design</h2>
+    <p>Exploring possibilities, creating compelling designs and transforming ideas into impactful visual experiences.</p>
+    <a href="#myWorks">learn more</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!--my works area-->
+    <div id="myWorks">
+    <div class="container">
+    <h1 class="sub-title"> My Work</h1>
+<div class="work-list">
+<div class="work">
+<img src="/images/webguy.jpg" alt="">
+<div class="layer">
+<h3>Web Design</h3>
+<p>User-focused web design that makes an impact, crafting websites that solve problems and drive results</p>
+</div>
+</div>
+<div class="work">
+<img src="/images/techSupport.jpg" alt="">
+<div class="layer">
+<h3>Tech Support</h3>
+<p>Solving tech challenges, one solution at a time, where I've turned tech problems into solutions.</p>
+</div>
+</div>
+<div class="work">
+<img src="/images/23RD copy.jpg" alt="">
+<div class="layer">
+<h3>Graphic Design</h3>
+<p>Exploring possibilities, creating compelling designs and transforming ideas into impactful visual experiences.</p>
+</div> 
+</div>
+
+</div>
+
+    </div>
+    
+    </div>
+
+    <div class="contactgap" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titile">Contact Me</h1>
+                       <p>anyajapheth200@gmail.com</p>
+                         <p>+233555346222/+233264866511</p>
+    </div>
+              <div class="contact-right">
+              <form action="https://api.web3forms.com/submit" method="POST">
+               <input type="hidden" name="access_key" value="b4d86adb-5130-4629-bde8-c9251040d818">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="Message" placeholder="Your Message" rows="6" cols="50"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+              </form>
+    
+    </div></div></div></div>
+
+    <div class="copyright">
+    <p>copyright &copy; built and designed by JayTech Solutions</p></div>
+    <script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+     for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+     }
+     for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab")
+
+    }
+    </script>
+    <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+     sidemenu.style.right = "0";
+    }
+    function closemenu(){
+     sidemenu.style.right = "-200px";
+    }
+
+    </script>
+  </body>
+</html>
